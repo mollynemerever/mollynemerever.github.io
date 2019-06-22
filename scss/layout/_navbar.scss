@@ -13,14 +13,14 @@
       a.nav-link {
         color: $white;
         &:hover {
-          color: $primary;
+          color: $pink;
         }
         &:active,
         &:focus {
           color: $white;
         }
         &.active {
-          color: $primary;
+          color: $pink;
         }
       }
     }
@@ -44,7 +44,7 @@
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
       color: $white;
-      background: $primary;
+      background: $pink;
       &:active,
       &:focus,
       &:hover {
